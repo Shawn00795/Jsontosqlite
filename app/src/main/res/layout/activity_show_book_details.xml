@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_show_book_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textViewBookPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBookName"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textViewBookInStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBookPrice"
+        android:fontFamily="cursive"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>
